@@ -2,7 +2,7 @@ param workspace string
 
 @description('Unique id for the scheduled alert rule')
 @minLength(1)
-param analytic_id string = '03006c6b-d532-4799-baac-0ab52bac8482'
+param analytic_id string = '13006c6b-d532-4799-baac-0ab52bac8482'
 
 resource workspace_Microsoft_SecurityInsights_analytic_id 'Microsoft.OperationalInsights/workspaces/providers/alertRules@2020-01-01' = {
   name: '${workspace}/Microsoft.SecurityInsights/${analytic_id}'
