@@ -5,7 +5,7 @@
     "workspace": {
       "type": "String"
     },
-    "analytic-id": {
+    "analytic_id": {
       "type": "string",
       "defaultValue": "03006c6b-d532-4799-baac-0ab52bac8482",
       "minLength": 1,
