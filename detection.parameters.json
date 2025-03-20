@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "workspace": {
+      "value": "brandon-apple"
+    },
+    "analytic_id": {
+      "value": "28c0e375-f1ba-4e2c-9b25-f67ef50cffd2"
+    }
+  }
+}
