@@ -280,7 +280,7 @@ function GetMetadataCustomVersion($templateType, $paramFileType, $containsWorksp
     if($containsWorkspaceParam){
         $customVersion += "-WorkspaceParam"
     }
-    if($smartDeployment){
+    if($smartDeployment -eq "true"){
         $customVersion += "-SmartTracking"
     }
     return $customVersion
